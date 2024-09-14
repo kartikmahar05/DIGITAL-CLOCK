@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    background-color: black;
+}
+.main{
+    width: 50%;
+    height: 30vh;
+    padding: 10px;
+    background-color: rgb(34, 24, 24);
+
+}
+#head{
+    width: 100%;
+    font-size: xx-large;
+    font-family: Digital-7, Times, Serif;
+    text-align: center;
+    color: rgb(4, 221, 4);
+}
+.parent{
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    height: 90%;
+    width: 15%;
+}
+.child input{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: Digital-7, Times, Serif;
+    background-color: rgb(59, 56, 56);
+    color: red;
+    color: rgb(4, 221, 4);
+
+
+}
+.child1{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(4, 221, 4);
+    
+}
